@@ -10,7 +10,7 @@ All documentation about Galen can be found on http://galenframework.com
 To run the tests use this command.
 
 ````
-galen test test-example.test --htmlreport ../reports
+galen test test-example.test -DwebsiteUrl="http://samples.galenframework.com/tutorial1/tutorial1.html" --htmlreport ../reports
 ```
 
 Galen generates a lot of stuff but just open the "report.html" file to access to the final report result.
