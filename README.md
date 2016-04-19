@@ -1,6 +1,6 @@
 # Layout Responsive Testing Study using Galen Framework
 
-This repo could be used to understand how the Galen Framework could be used to test a responsive website based on http://mindengine.net/post/2014-01-07-layout-testing-for-responsive-websites-with-selenium.-doing-it-properly .
+This repo could be used to understand how the Galen Framework could be used to test a responsive website based on http://mindengine.net/post/2014-01-07-layout-testing-for-responsive-websites-with-selenium.-doing-it-properly and http://galenframework.com/docs/tutorial-first-project/.
 
 This repo contains tests. The goal is to run automated tests and have a final report. 
 
