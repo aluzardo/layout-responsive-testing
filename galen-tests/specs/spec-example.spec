@@ -8,18 +8,18 @@
 = Header =
     header:
       @on desktop 
-          visible
+          absent
       @on tablet 
-          visible
+          absent
       @on mobile 
           visible
 
 = Menu =
     menu:
       @on desktop 
-          visible
+          absent
       @on tablet 
-          visible
+          absent
       @on mobile 
           visible
 
@@ -35,11 +35,11 @@
 = Side Panel =
     side-panel:
       @on desktop 
-          width 300px
+          width 100px
       @on tablet 
-          width 300px
+          width 100px
       @on mobile 
-          width 100 % of screen/width
+          absent
 
 = Footer =
     footer:

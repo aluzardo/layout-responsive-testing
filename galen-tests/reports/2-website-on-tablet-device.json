@@ -3,7 +3,7 @@
   "name" : "Website on tablet device",
   "report" : {
     "nodes" : [ {
-      "name" : "http://samples.galenframework.com/tutorial1/tutorial1.html 900x600",
+      "name" : "https://kaboo.com 900x600",
       "status" : "info",
       "nodes" : [ {
         "name" : "check ../specs/spec-example.spec --include \"tablet\"",
@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: ../specs/spec-example.spec included tags: tablet",
           "status" : "info",
-          "time" : 1461111000145,
+          "time" : 1461112722844,
           "includedTags" : [ "tablet" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -24,8 +24,8 @@
                   "filePath" : "../specs/spec-example.spec",
                   "lineNumber" : 13
                 },
-                "name" : "visible",
-                "highlight" : [ "header" ]
+                "name" : "absent",
+                "highlight" : [ ]
               } ]
             } ]
           }, {
@@ -38,8 +38,8 @@
                   "filePath" : "../specs/spec-example.spec",
                   "lineNumber" : 22
                 },
-                "name" : "visible",
-                "highlight" : [ "menu" ]
+                "name" : "absent",
+                "highlight" : [ ]
               } ]
             } ]
           }, {
@@ -66,7 +66,7 @@
                   "filePath" : "../specs/spec-example.spec",
                   "lineNumber" : 40
                 },
-                "name" : "width 300px",
+                "name" : "width 100px",
                 "highlight" : [ "side-panel" ]
               } ]
             } ]
@@ -87,28 +87,22 @@
           } ],
           "objects" : {
             "side-panel" : {
-              "area" : [ 600, 150, 300, 220 ]
+              "area" : [ 0, 0, 100, 521 ]
             },
             "footer" : {
-              "area" : [ 0, 370, 900, 120 ]
-            },
-            "header" : {
-              "area" : [ 0, 0, 900, 100 ]
-            },
-            "menu" : {
-              "area" : [ 0, 100, 900, 50 ]
+              "area" : [ 36, 2666, 813, 458 ]
             },
             "content" : {
-              "area" : [ 0, 150, 900, 220 ]
+              "area" : [ 0, 0, 900, 521 ]
             }
           },
           "screenshot" : "layout-2-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1461110999788,
+        "time" : 1461112722334,
         "type" : "node"
       } ],
-      "time" : 1461110997791,
+      "time" : 1461112717975,
       "type" : "node"
     } ]
   }

@@ -3,7 +3,7 @@
   "name" : "Website on desktop device",
   "report" : {
     "nodes" : [ {
-      "name" : "http://samples.galenframework.com/tutorial1/tutorial1.html 1300x700",
+      "name" : "https://kaboo.com 1300x700",
       "status" : "info",
       "nodes" : [ {
         "name" : "check ../specs/spec-example.spec --include \"desktop\"",
@@ -11,7 +11,7 @@
         "nodes" : [ {
           "name" : "Check layout: ../specs/spec-example.spec included tags: desktop",
           "status" : "info",
-          "time" : 1461111002572,
+          "time" : 1461112727656,
           "includedTags" : [ "desktop" ],
           "excludedTags" : [ ],
           "sections" : [ {
@@ -24,8 +24,8 @@
                   "filePath" : "../specs/spec-example.spec",
                   "lineNumber" : 11
                 },
-                "name" : "visible",
-                "highlight" : [ "header" ]
+                "name" : "absent",
+                "highlight" : [ ]
               } ]
             } ]
           }, {
@@ -38,8 +38,8 @@
                   "filePath" : "../specs/spec-example.spec",
                   "lineNumber" : 20
                 },
-                "name" : "visible",
-                "highlight" : [ "menu" ]
+                "name" : "absent",
+                "highlight" : [ ]
               } ]
             } ]
           }, {
@@ -66,7 +66,7 @@
                   "filePath" : "../specs/spec-example.spec",
                   "lineNumber" : 38
                 },
-                "name" : "width 300px",
+                "name" : "width 100px",
                 "highlight" : [ "side-panel" ]
               } ]
             } ]
@@ -87,28 +87,22 @@
           } ],
           "objects" : {
             "side-panel" : {
-              "area" : [ 1000, 150, 300, 220 ]
+              "area" : [ 0, 0, 100, 621 ]
             },
             "footer" : {
-              "area" : [ 0, 370, 1300, 120 ]
-            },
-            "header" : {
-              "area" : [ 0, 0, 1300, 100 ]
-            },
-            "menu" : {
-              "area" : [ 0, 100, 1300, 50 ]
+              "area" : [ 43, 2518, 1200, 377 ]
             },
             "content" : {
-              "area" : [ 0, 150, 1300, 220 ]
+              "area" : [ 0, 0, 1300, 621 ]
             }
           },
           "screenshot" : "layout-3-screenshot.png",
           "type" : "layout"
         } ],
-        "time" : 1461111002221,
+        "time" : 1461112727095,
         "type" : "node"
       } ],
-      "time" : 1461111000216,
+      "time" : 1461112722928,
       "type" : "node"
     } ]
   }
