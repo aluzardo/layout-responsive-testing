@@ -1,96 +1,51 @@
-=====================================
-header          css #header
-menu            css #menu
-content         css #content-container
-side-panel      css #side-panel
-footer          css #footer
-=====================================
+@objects
+   header          css    #header
+   menu            css    #menu
+   content         css    #content-container
+   side-panel      css    #side-panel
+   footer          css    #footer
+   
+= Header =
+    header:
+      @on desktop 
+          visible
+      @on tablet 
+          visible
+      @on mobile 
+          visible
 
-@ *
---------------------
-header
-  visible
+= Menu =
+    menu:
+      @on desktop 
+          visible
+      @on tablet 
+          visible
+      @on mobile 
+          visible
 
-menu
-  visible
+= Content =
+    content:
+      @on desktop 
+          visible
+      @on tablet 
+          visible
+      @on mobile 
+          visible
 
-content
-  visible
+= Side Panel =
+    side-panel:
+      @on desktop 
+          width 300px
+      @on tablet 
+          width 300px
+      @on mobile 
+          width 100 % of screen/width
 
-side-panel
-  visible
-
-footer
-  visible
-
-
-@ desktop
-------------------
-header
-  visible
-
-menu
-  visible
-
-content
-  visible
-
-side-panel
-  visible
-
-footer
-  visible
-
-
-@ desktop, tablet
--------------------
-header
-  visible
-
-menu
-  visible
-
-content
-  visible
-
-side-panel
-  visible
-
-footer
-  visible
-
-
-@ tablet
------------------
-header
-  visible
-
-menu
-  visible
-
-content
-  visible
-
-side-panel
-  visible
-
-footer
-  visible
-
-
-@ mobile
-----------------------
-header
-  visible
-
-menu
-  visible
-
-content
-  visible
-
-side-panel
-  visible
-
-footer
-  visible
+= Footer =
+    footer:
+      @on desktop 
+          visible
+      @on tablet 
+          visible
+      @on mobile 
+          visible

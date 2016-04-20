@@ -1,0 +1,115 @@
+{
+  "testId" : "1-website-on-mobile-device",
+  "name" : "Website on mobile device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://samples.galenframework.com/tutorial1/tutorial1.html 320x372",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check ../specs/spec-example.spec --include \"mobile\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: ../specs/spec-example.spec included tags: mobile",
+          "status" : "info",
+          "time" : 1461110997720,
+          "includedTags" : [ "mobile" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Header",
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "../specs/spec-example.spec",
+                  "lineNumber" : 15
+                },
+                "name" : "visible",
+                "highlight" : [ "header" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Menu",
+            "objects" : [ {
+              "name" : "menu",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "../specs/spec-example.spec",
+                  "lineNumber" : 24
+                },
+                "name" : "visible",
+                "highlight" : [ "menu" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Content",
+            "objects" : [ {
+              "name" : "content",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "../specs/spec-example.spec",
+                  "lineNumber" : 33
+                },
+                "name" : "visible",
+                "highlight" : [ "content" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Side Panel",
+            "objects" : [ {
+              "name" : "side-panel",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "../specs/spec-example.spec",
+                  "lineNumber" : 42
+                },
+                "name" : "width 100 % of screen/width",
+                "highlight" : [ "side-panel" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Footer",
+            "objects" : [ {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "../specs/spec-example.spec",
+                  "lineNumber" : 51
+                },
+                "name" : "visible",
+                "highlight" : [ "footer" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "side-panel" : {
+              "area" : [ 0, 420, 320, 220 ]
+            },
+            "footer" : {
+              "area" : [ 0, 640, 320, 120 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 320, 100 ]
+            },
+            "menu" : {
+              "area" : [ 0, 100, 320, 100 ]
+            },
+            "content" : {
+              "area" : [ 0, 200, 320, 220 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1461110997300,
+        "type" : "node"
+      } ],
+      "time" : 1461110994843,
+      "type" : "node"
+    } ]
+  }
+}

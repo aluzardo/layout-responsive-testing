@@ -1,10 +1,10 @@
 @@ table devices
   | device    | size     |
-  | mobile    | 500x700  |
+  | mobile    | 320x372  |
   | tablet    | 900x600  |
   | desktop   | 1300x700 |
 
 @@ parameterized using devices
 Website on ${device} device
   ${websiteUrl} ${size}
-    check specs/spec-example.spec --include "${device}"
+    check ../specs/spec-example.spec --include "${device}"
