@@ -1,9 +1,9 @@
 @objects
-   header          css    #header
-   menu            css    #menu
-   content         css    #content-container
-   side-panel      css    #side-panel
-   footer          css    #footer
+   header          css    .s-header
+   menu            css    .s-toolbar
+   content         css    .s-app-wrapper__sections
+   side-panel      css    .s-intro__sidebar
+   footer          css    .s-panel__footer
    
 = Header =
     header:
